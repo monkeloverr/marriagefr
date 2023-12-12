@@ -1,4 +1,3 @@
-/* Reset */
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #ffd1dc; /* Light pink background */
+    background: #ffd1dc;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -22,7 +21,7 @@ body {
 h2 {
     text-align: center;
     font-size: 1.5em;
-    color: #e94d58; /* Bright pink text */
+    color: #e94d58;
     margin: 15px 0;
 }
 
@@ -44,51 +43,48 @@ button {
     outline: none;
     cursor: pointer;
     box-shadow: 0 2px 4px gray;
-    border: 2px solid #e94d58; /* Bright pink border */
+    border: 2px solid #e94d58;
     font-size: 1.2em;
 }
 
 button:nth-child(1) {
     margin-left: -200px;
-    background: #e94d58; /* Bright pink background */
+    background: #e94d58;
 }
 
 button:nth-child(2) {
     margin-right: -200px;
-    background: #ffccdc; /* Lighter pink background */
-    color: #e94d58; /* Bright pink text */
+    background: #ffccdc;
+    color: #e94d58;
 }
 
-/* Decorative pink flowers */
 .flower-corner {
     position: fixed;
-    width: 100px; /* Adjust the size of the image */
+    width: 100px;
     height: auto;
-    z-index: 999; /* Ensure it's above other elements if needed */
+    z-index: 999;
 }
 
-/* Pink flower positions */
 .top-left {
-    top: 20px; /* Adjust as needed */
-    left: 20px; /* Adjust as needed */
+    top: 20px;
+    left: 20px;
 }
 
 .top-right {
-    top: 20px; /* Adjust as needed */
-    right: 20px; /* Adjust as needed */
+    top: 20px;
+    right: 20px;
 }
 
 .bottom-left {
-    bottom: 20px; /* Adjust as needed */
-    left: 20px; /* Adjust as needed */
+    bottom: 20px;
+    left: 20px;
 }
 
 .bottom-right {
-    bottom: 20px; /* Adjust as needed */
-    right: 20px; /* Adjust as needed */
+    bottom: 20px;
+    right: 20px;
 }
 
-/* Pink flowers */
 .flower {
-    fill: #ff7eb9; /* Pink color */
+    fill: #ff7eb9;
 }
