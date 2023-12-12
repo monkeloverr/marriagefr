@@ -7,7 +7,7 @@ const noBtn = document.querySelector(".no-btn");
 yesBtn.addEventListener("click", () => {
   question.innerHTML = "It's official now!! We are married yayyy!!!";
   gif.src =
-    "sweet.gif";
+    "sweet2.gif";
   gif.style.marginLeft = "10px";
 });
 
