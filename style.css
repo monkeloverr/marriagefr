@@ -5,21 +5,24 @@
     box-sizing: border-box;
 }
 
-/* Body styles */
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #f9e6e8; /* Light pink background */
+    background: #ffd1dc; /* Light pink background */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* Adjusted pinkish theme */
+.gif {
+    height: 100%;
+    width: 100%;
+}
+
 h2 {
     text-align: center;
     font-size: 1.5em;
-    color: #e94d58; /* Dark pinkish-red */
+    color: #e94d58; /* Bright pink text */
     margin: 15px 0;
 }
 
@@ -31,19 +34,8 @@ h2 {
     margin-top: 50px;
 }
 
-/* Add these styles for the no-btn class */
-.no-btn {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    /* ... other styles */
-}
-
-
-/* Buttons with pinkish theme */
 button {
-    position: relative;
+    position: absolute;
     width: 150px;
     height: inherit;
     color: white;
@@ -52,18 +44,19 @@ button {
     outline: none;
     cursor: pointer;
     box-shadow: 0 2px 4px gray;
-    border: 2px solid #e94d58; /* Dark pinkish-red border */
+    border: 2px solid #e94d58; /* Bright pink border */
+    font-size: 1.2em;
 }
 
 button:nth-child(1) {
     margin-left: -200px;
-    background: #e94d58; /* Dark pinkish-red background */
+    background: #e94d58; /* Bright pink background */
 }
 
 button:nth-child(2) {
     margin-right: -200px;
-    background: #f7cac9; /* Light pink background */
-    color: #e94d58; /* Dark pinkish-red text */
+    background: #ffccdc; /* Lighter pink background */
+    color: #e94d58; /* Bright pink text */
 }
 
 /* Decorative pink flowers */
